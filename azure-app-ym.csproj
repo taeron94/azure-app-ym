@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_ym</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/55ca9047-a477-4c39-a0a4-b2a1be64ce9a/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-ym</ApplicationInsightsResourceId>
+    <UserSecretsId>3989c068-b5ec-4b7a-a2c4-1e5a9d641113</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
